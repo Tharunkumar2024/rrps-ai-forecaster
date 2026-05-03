@@ -1,7 +1,7 @@
 """Root entry point for the RRPS Forecaster API.
 
 Usage:
-    python main.py [--host 0.0.0.0] [--port 8000] [--reload]
+    python main.py
 """
 
 import sys

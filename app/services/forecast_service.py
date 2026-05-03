@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
-# Rule-based fallback (Week 1 logic kept as safety net)
+# Rule-based fallback (keep this logic as fallback)
 # ---------------------------------------------------------------------------
 
 HOURLY_WEIGHT: dict[int, float] = {
