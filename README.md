@@ -61,7 +61,7 @@ python -m app.scripts.generate_data
 ```
 
 ### 4. Train the ML Model
-Train the XGBoost forecaster. This step will save a `.pkl` artifact in the `/models` directory.
+Train the XGBoost forecaster. This step will save a `.joblib` artifact in the `/ml_artifacts` directory.
 ```bash
 python -m app.scripts.train_forecast_model
 ```
@@ -123,6 +123,7 @@ rrps-forecaster/
 │   ├── scripts/          # Offline data generation & ML training pipelines
 │   └── services/         # Core business logic (Forecast, Staff, Inventory)
 ├── frontend/             # Vanilla JS/CSS/HTML Premium Dashboard UI
+├── ml_artifacts/         # Trained ML model binaries (.joblib)
 ├── tests/                # Pytest suite (unit, integration, e2e)
 ├── alembic/              # Database migration versions
 ├── docs/                 # Architecture reviews, HLD, LLD, and PRD
