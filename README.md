@@ -1,6 +1,10 @@
 # RRPS Forecaster AI 🚀
 
-[**🎥 Watch the System Demo Video**](https://drive.google.com/file/d/1GTn5Qy9WTZ0Jj9z4jKQzOFFtLUnv2cI6/view?usp=drive_link)
+<div align="center">
+  <iframe src="https://drive.google.com/file/d/1GTn5Qy9WTZ0Jj9z4jKQzOFFtLUnv2cI6/preview" width="100%" height="480" allow="autoplay"></iframe>
+</div>
+
+<br/>
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
