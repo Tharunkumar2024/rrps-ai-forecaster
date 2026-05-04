@@ -195,7 +195,7 @@ def run() -> None:
             if covers > 0:
                 # Simulate an aggregated "order" per hour
                 avg_price = np.mean([m["price"] for m in MENU_ITEMS])
-                total_amount = round(covers * avg_price * random.uniform(0.8, 1.2), 2)
+                total_amount = float(round(covers * avg_price * random.uniform(0.8, 1.2), 2))
 
                 order = Order(
                     id=str(uuid.uuid4()),
