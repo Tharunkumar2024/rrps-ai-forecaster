@@ -1,6 +1,7 @@
 # RRPS Forecaster AI 🚀
 
 <div align="center">
+  <p><i>Click the image below to watch the system demo video</i></p>
   <a href="https://drive.google.com/file/d/1GTn5Qy9WTZ0Jj9z4jKQzOFFtLUnv2cI6/view?usp=drive_link" target="_blank">
     <img src="assets/demo_video_thumbnail.png" alt="Watch the System Demo Video" width="100%">
   </a>
